@@ -90,9 +90,14 @@
     $nama_produk = $row['nama']; ?>
 
                   
-                  <option value="<?php echo $_GET['$id']  ?>" > <?php  ?> </option>
-               <?php } ?>
-                </select>
+<option value="<?= $id?>">
+                      <?= $nama_produk?>
+                    </option>
+
+                    <?php
+                                    }
+                                    ?>
+                  </select>
               </div>
             </div>
 
